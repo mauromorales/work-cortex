@@ -112,13 +112,40 @@ Agents must preserve meaning and history.
 When interacting with a GPT in a conversation, you can use this prompt to generate an understanding:
 
 ```
-Turn this conversation into an understanding for my cortex.
+From the content above, produce the distilled understanding that represents how I currently make sense of this topic.
 
-Requirements:
-- Create frontmatter with created and updated dates (today).
-- Write a clear “Current understanding”.
-- Add a “Context” section with an initial entry summarizing how this understanding emerged.
-- Do not add new opinions beyond what appears in the conversation.
-- Keep tone reflective, not authoritative.
-- Use my voice
+The goal is to capture my post-discussion perspective — the way I would explain this to myself later, once the details of the conversation are forgotten.
+
+Guidelines:
+- Write strictly from my perspective (“I”).
+- Keep the tone reflective, not authoritative.
+- Preserve uncertainty, nuance, and incompleteness where they exist.
+- Do not resolve open questions or smooth over ambiguity.
+- Do not describe the discussion itself or how this understanding was formed.
+- Do not introduce new opinions, conclusions, or interpretations.
+
+Structure the output as:
+
+created: YYYY-MM-DD
+updated: YYYY-MM-DD
+tags: [relevant tags]
+
+Current understanding:
+(Describe how I currently think about the topic, including uncertainties or tensions if present.)
+
+Context:
+(Briefly describe what prompted or framed this understanding, without narrating the discussion.)
+
+Actions:
+(Leave empty unless explicit actions are provided.)
+
+History:
+(Leave empty unless explicit historical changes are provided.)
+
+Notes:
+(Optional reflections, implications, or directions to revisit later — not conclusions.)
+
+Output requirements:
+- Produce a single block of text suitable for pasting into a GitHub issue.
+- Do not include explanations, commentary, or text outside the content itself.
 ```
