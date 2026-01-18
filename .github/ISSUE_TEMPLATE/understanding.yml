@@ -1,0 +1,65 @@
+name: 🧠 Understanding
+description: Create or update an understanding
+title: "Understanding: "
+labels: ["understanding"]
+body:
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      options:
+        - New understanding
+        - Update existing understanding
+    validations:
+      required: true
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What is this understanding about?
+      placeholder: |
+        Describe the core idea in your own words.
+    validations:
+      required: true
+
+  - type: textarea
+    id: current
+    attributes:
+      label: Current understanding
+      description: How do you currently make sense of this?
+      placeholder: |
+        Write reflectively, not definitively.
+    validations:
+      required: true
+
+  - type: textarea
+    id: history
+    attributes:
+      label: Historical context
+      description: How did this understanding emerge or change?
+      placeholder: |
+        Initial insight, triggers, conversations, experiences.
+    validations:
+      required: false
+
+  - type: textarea
+    id: actions
+    attributes:
+      label: Actions taken
+      description: Record only things that already happened
+      placeholder: |
+        - blog post
+        - discussion
+        - experiment
+        Leave empty if none.
+    validations:
+      required: false
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Optional reflections or open questions
+      validations:
+        required: false

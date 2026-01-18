@@ -1,0 +1,45 @@
+name: 🌐 Network
+description: Capture collaboration context with a person, group, or organization
+title: "Network: "
+labels: ["network"]
+body:
+  - type: input
+    id: entity
+    attributes:
+      label: Entity
+      placeholder: Person, company, or community name
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: How do you interact with this entity?
+    validations:
+      required: true
+
+  - type: textarea
+    id: relationship
+    attributes:
+      label: Relationship type
+      placeholder: |
+        collaborator, maintainer, organizer, contact, etc.
+    validations:
+      required: false
+
+  - type: textarea
+    id: shared
+    attributes:
+      label: Shared areas
+      description: Topics or projects relevant to collaboration
+    validations:
+      required: false
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Professional context only. No private or sensitive information.
+    validations:
+      required: false

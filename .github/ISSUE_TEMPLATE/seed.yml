@@ -1,0 +1,34 @@
+name: 🌱 Seed
+description: Capture a raw idea, question, or intuition
+title: "Seed: "
+labels: ["seed"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Idea
+      description: What sparked this thought?
+      placeholder: |
+        Write freely. Messy is fine.
+    validations:
+      required: true
+
+  - type: textarea
+    id: why
+    attributes:
+      label: Why capture this?
+      description: What made this feel worth noting?
+      placeholder: |
+        What made this come back or stand out?
+    validations:
+      required: false
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Optional context, links, or fragments
+      placeholder: |
+        No need to resolve anything.
+    validations:
+      required: false

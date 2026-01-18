@@ -1,0 +1,40 @@
+name: 🎭 Role
+description: Describe a role or ongoing activity
+title: "Role: "
+labels: ["role"]
+body:
+  - type: textarea
+    id: purpose
+    attributes:
+      label: Purpose
+      description: What is this role about?
+      placeholder: |
+        Describe the intent of this role.
+    validations:
+      required: true
+
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: What does this role include or exclude?
+      placeholder: |
+        Boundaries matter.
+    validations:
+      required: false
+
+  - type: textarea
+    id: collaboration
+    attributes:
+      label: Collaboration surface
+      description: Who or what does this role interact with?
+    validations:
+      required: false
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Context only. Avoid opinions.
+    validations:
+      required: false
