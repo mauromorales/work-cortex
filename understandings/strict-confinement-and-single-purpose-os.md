@@ -34,4 +34,4 @@ I was reasoning about how strict confinement, immutable systems, and single-purp
 - The distinction between immutable general-purpose systems and single-purpose systems feels more important than immutability alone.
 - The browser analogy helps clarify where sandboxing naturally belongs.
 - This framing may be useful when explaining why certain security mechanisms feel unnecessary rather than missing.
-- I need to learn more about Kubernetes security to be sure that my statements are correct
+- I need to learn more about Kubernetes security to be sure that my statements are correct.
