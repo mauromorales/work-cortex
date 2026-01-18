@@ -2,33 +2,33 @@ name: 🌱 Seed
 description: Capture a raw idea, question, or intuition
 title: "Seed: "
 labels: ["seed"]
+
 body:
-  - type: textarea
-    id: idea
+  - type: markdown
     attributes:
-      label: Idea
-      description: What sparked this thought?
+      value: |
+        <!--
+        This issue captures a raw seed.
+
+        Instructions for AI tools:
+
+        - This is NOT a task to solve.
+        - Do NOT expand or resolve the idea unless explicitly asked.
+        - Do NOT promote this seed into an understanding automatically.
+        - Preserve the original wording and intent.
+        - You may help clarify or reformat only when requested.
+        -->
+
+        Paste the seed below.
+        Raw, incomplete, or messy content is expected.
+
+  - type: textarea
+    id: content
+    attributes:
+      label: Seed content
+      description: Paste the idea, note, or thought here.
       placeholder: |
-        Write freely. Messy is fine.
+        Paste anything here.
+        Fragments and half-formed thoughts are fine.
     validations:
       required: true
-
-  - type: textarea
-    id: why
-    attributes:
-      label: Why capture this?
-      description: What made this feel worth noting?
-      placeholder: |
-        What made this come back or stand out?
-    validations:
-      required: false
-
-  - type: textarea
-    id: notes
-    attributes:
-      label: Notes
-      description: Optional context, links, or fragments
-      placeholder: |
-        No need to resolve anything.
-    validations:
-      required: false

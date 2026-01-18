@@ -1,40 +1,31 @@
 name: 🎭 Role
-description: Describe a role or ongoing activity
+description: Capture context about an ongoing role or activity
 title: "Role: "
 labels: ["role"]
+
 body:
-  - type: textarea
-    id: purpose
+  - type: markdown
     attributes:
-      label: Purpose
-      description: What is this role about?
+      value: |
+        <!--
+        This issue captures contextual information about a role.
+
+        Instructions for AI tools:
+
+        - This is contextual information, not an opinion or belief.
+        - Do NOT infer intent, strategy, or judgment.
+        - Do NOT add interpretation beyond what is written.
+        - You may help transform this into a role file when explicitly requested.
+        -->
+
+        Paste information about the role below.
+
+  - type: textarea
+    id: content
+    attributes:
+      label: Role context
+      description: Paste context about this role or activity.
       placeholder: |
-        Describe the intent of this role.
+        Describe the role, scope, interactions, or responsibilities.
     validations:
       required: true
-
-  - type: textarea
-    id: scope
-    attributes:
-      label: Scope
-      description: What does this role include or exclude?
-      placeholder: |
-        Boundaries matter.
-    validations:
-      required: false
-
-  - type: textarea
-    id: collaboration
-    attributes:
-      label: Collaboration surface
-      description: Who or what does this role interact with?
-    validations:
-      required: false
-
-  - type: textarea
-    id: notes
-    attributes:
-      label: Notes
-      description: Context only. Avoid opinions.
-    validations:
-      required: false
