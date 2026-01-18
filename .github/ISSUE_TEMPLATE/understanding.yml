@@ -61,5 +61,5 @@ body:
     attributes:
       label: Notes
       description: Optional reflections or open questions
-      validations:
-        required: false
+    validations:
+      required: false
