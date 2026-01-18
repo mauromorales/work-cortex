@@ -107,7 +107,7 @@ Rules for automated agents interacting with this repository are defined in [agen
 
 Agents must preserve meaning and history.
 
-## Prompts
+## Prompt
 
 When interacting with a GPT in a conversation, you can use this prompt to generate an understanding:
 
@@ -126,8 +126,8 @@ Guidelines:
 
 Structure the output as:
 
-created: <today>
-updated: <today>
+created: YYYY-MM-DD
+updated: YYYY-MM-DD
 tags: [relevant tags]
 
 Current understanding:
@@ -135,6 +135,9 @@ Current understanding:
 
 Context:
 (Briefly describe what prompted or framed this understanding, without narrating the discussion.)
+
+Actions:
+(Leave empty unless explicit actions are provided.)
 
 History:
 (Leave empty unless explicit historical changes are provided.)
