@@ -1,6 +1,7 @@
 ---
 created: 2026-01-18
 updated: 2026-01-18
+title: App Sandboxing vs Single-Purpose OS
 tags: [security, linux, kubernetes, sandboxing, spos]
 actions: []
 ---

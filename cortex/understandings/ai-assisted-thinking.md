@@ -1,6 +1,7 @@
 ---
 created: 2026-01-18
 updated: 2026-01-18
+title: AI Assisted Thinking
 tags: [ai, thinking]
 actions: []
 ---

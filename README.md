@@ -31,13 +31,13 @@ Only ideas with gravity belong here.
 
 ## AI collaboration
 
-Cortex was designed to support collaboration with AI as a thinking aid. For this reason, the repository includes files such as `agents.md` and Copilot instructions that define how AI tools should behave when interacting with it. However, the use of AI is optional — the cortex can be used entirely without AI if preferred, with the same structure and intent.
+Cortex was designed to support collaboration with AI as a thinking aid. For this reason, the repository includes files such as `AGENTS.md` and Copilot instructions that define how AI tools should behave when interacting with it. However, the use of AI is optional — the cortex can be used entirely without AI if preferred, with the same structure and intent.
 
 ---
 
 ## Structure
 
-### `seeds/`
+### `cortex/seeds/`
 Raw ideas, questions, or intuitions.
 
 Seeds are not beliefs and may never be resolved.
@@ -45,7 +45,7 @@ They exist only to capture something that feels worth revisiting.
 
 ---
 
-### `understandings/`
+### `cortex/understandings/`
 Evolving understandings.
 
 Each understanding:
@@ -59,7 +59,7 @@ History should remain intact.
 
 ---
 
-### `roles/`
+### `cortex/roles/`
 Stable context about ongoing roles or activities.
 
 These files describe **where** understanding is applied, not **what is believed**.
@@ -68,7 +68,7 @@ They should change slowly.
 
 ---
 
-### `network/`
+### `cortex/network/`
 Context about people, communities, or organizations involved in collaboration.
 
 This directory contains professional collaboration context only.
@@ -103,7 +103,7 @@ The goal is learning, not optimization.
 
 ## Agents
 
-Rules for automated agents interacting with this repository are defined in [agents.md](./agents.md) and [copilot-instructions.md](./.github/copilot-instructions.md)
+Rules for automated agents interacting with this repository are defined in [AGENTS.md](./AGENTS.md) and [copilot-instructions.md](./.github/copilot-instructions.md)
 
 Agents must preserve meaning and history.
 
@@ -126,6 +126,7 @@ Guidelines:
 
 Structure the output as:
 
+title: (Come up with a title for this understanding unless one has been provided.)
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
 tags: [relevant tags]

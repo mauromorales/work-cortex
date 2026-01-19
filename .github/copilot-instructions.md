@@ -21,10 +21,10 @@ Follow these instructions when assisting in this repository.
 When asked to create files:
 
 - Place files only in these directories:
-  - `seeds/`
-  - `understandings/`
-  - `roles/`
-  - `network/`
+  - `cortex/seeds/`
+  - `cortex/understandings/`
+  - `cortex/roles/`
+  - `cortex/network/`
 
 - Do not create new top-level directories unless explicitly instructed.
 
@@ -32,7 +32,7 @@ When asked to create files:
 
 ## Understandings
 
-When creating or updating files under `understandings/`:
+When creating or updating files under `cortex/understandings/`:
 
 - Always include frontmatter.
 - Set `created` and `updated` dates to today unless provided.
@@ -75,7 +75,7 @@ When creating seed files:
 
 ## Roles and Network
 
-When creating files under `roles/` or `network/`:
+When creating files under `cortex/roles/` or `cortex/network/`:
 
 - Capture context only.
 - Avoid opinions or interpretations.

@@ -30,7 +30,7 @@ Preserving meaning is more important than producing content.
 
 ## 2. Understandings
 
-Files under `understandings/` represent the author’s evolving understanding over time.
+Files under `cortex/understandings/` represent the author’s evolving understanding over time.
 
 Rules:
 - Treat the **Current understanding** section as authoritative.
@@ -56,6 +56,7 @@ Rules:
 - Do not modify frontmatter unless explicitly instructed.
 - Never invent dates, tags, or actions.
 - Do not copy frontmatter into derivative content unless requested.
+- When adding titles, use Chicago-style title case.
 
 If metadata is missing or unclear, ask.
 
@@ -76,7 +77,7 @@ Actions indicate exposure, not correctness.
 
 ## 5. Seeds
 
-Files under `seeds/` are raw ideas.
+Files under `cortex/seeds/` are raw ideas.
 
 Rules:
 - Seeds are not beliefs.
@@ -90,7 +91,7 @@ Seeds may remain unresolved indefinitely.
 
 ## 6. Roles and Network
 
-Files under `roles/` and `network/` provide **stable context only**.
+Files under `cortex/roles/` and `cortex/network/` provide **stable context only**.
 
 Rules:
 - Do not infer opinions or beliefs from these files.
